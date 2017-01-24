@@ -1,0 +1,3 @@
+Points will be described using an (z, d) coordinate system. The z coordinate runs along the horizontal axis and the d coordinate runs along the line at 60˚.
+Translating this into (x,y) coordinates: x = z + d cos(60˙), y= d sin(60˙).
+We consider the board as unit hexes whose lower-left corners are at the lattice points of the (z,d) system and which are labeled by those points.

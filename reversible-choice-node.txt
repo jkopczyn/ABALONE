@@ -1,0 +1,43 @@
+#This feeds into a pair of wires, one on each side, included in the diagram.
+
+#wire out on left
+3   1   w
+2   2   b
+1   4   b
+1   5   w
+
+#edges
+2   5   b
+1   7   b
+2   6   w   #critical
+
+#"walls"
+3   5   w
+4   5   w
+5   5   w
+6   5   w
+7   5   w
+4   4   b
+5   4   b
+6   4   b
+7   4   b
+2   7   w
+3   7   w
+4   7   w
+5   7   w
+6   7   w
+2   8   b
+3   8   b
+4   8   b
+5   8   b
+
+#decider, currently to the left
+3   6   b
+4   6   b
+
+#other edge
+6   6   w   #critical
+6   7   b
+7   5   b
+
+#wire out on right
